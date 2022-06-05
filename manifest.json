@@ -1,0 +1,14 @@
+{
+  "name": "remove zhihu signup window",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["remove.js"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+  "permissions": ["contextMenus", "tabs"],
+  "host_permissions":["https://*/*"]
+}
