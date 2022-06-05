@@ -6,9 +6,7 @@
   "content_scripts": [
     {
       "js": ["remove.js"],
-      "matches": ["http://*/*", "https://*/*"]
+      "matches": ["https://www.zhihu.com/*","https://zhuanlan.zhihu.com/*"]
     }
-  ],
-  "permissions": ["contextMenus", "tabs"],
-  "host_permissions":["https://*/*"]
+  ]
 }
