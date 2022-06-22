@@ -1,0 +1,10 @@
+node_modules/.package-lock.json
+node_modules/.bin/husky
+node_modules/husky/husky.sh
+node_modules/husky/LICENSE
+node_modules/husky/package.json
+node_modules/husky/README.md
+node_modules/husky/lib/bin.d.ts
+node_modules/husky/lib/bin.js
+node_modules/husky/lib/index.d.ts
+node_modules/husky/lib/index.js
