@@ -1,7 +1,9 @@
-can only remove zhihu-signup element 
+# readme
 
-try commit-msg hook
+can only remove zhihu-signup element
 
-try again
+fix bug
 
-forget to add chmod to hook
+the script would run before window load completed
+
+trial on commit-msg hook update `.git/hooks/commit-msg`
