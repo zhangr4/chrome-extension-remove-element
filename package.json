@@ -4,6 +4,7 @@
   "description": "can only remove zhihu-signup element",
   "main": "remove.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,10 +20,9 @@
   "dependencies": {
     "husky": "^8.0.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "node verify-commit.js"
-    }
+  {
+    "hooks":{
+    "pre-commit":"npm test"
   }
+}
 }
